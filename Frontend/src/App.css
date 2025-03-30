@@ -1,0 +1,14 @@
+/* frontend/src/App.css */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f0f0f0; /* Light background for now */
+  color: #333;
+  padding: 20px;
+}
+.App {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}

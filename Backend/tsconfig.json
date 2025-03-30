@@ -1,0 +1,18 @@
+// backend/tsconfig.json
+{
+    "compilerOptions": {
+      "target": "ES2016", // Node.js supports modern JS
+      "module": "CommonJS", // Standard for Node.js
+      "outDir": "./dist", // Output directory for compiled JS
+      "rootDir": "./src", // Source directory
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node", // Specify module resolution strategy
+      "resolveJsonModule": true, // Allows importing JSON files
+      "sourceMap": true // Generate source maps for debugging
+    },
+    "include": ["src/**/*"], // Include all files in src
+    "exclude": ["node_modules"] // Exclude node_modules
+  }
